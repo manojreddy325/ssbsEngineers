@@ -1,0 +1,46 @@
+.contact form div {
+    display: flex;
+}
+.contact textarea {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.contact input {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    padding:10px;
+}
+.contact form {
+    padding: 30px;
+}
+.contact h4 {
+    margin-bottom: 20px;
+}
+.send-btn{
+    border-radius: 5px;
+    border:1px solid #fff;
+  padding: 5px 10px;
+  background-color: #ff6600;
+  color: #fff;
+  font-weight: bold;
+  /* margin: 10px;
+  width:50px; */
+  cursor: pointer;
+}
+@media screen and (max-width: 768px){
+    .contact h4 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contact form div {
+        flex-direction: column;
+    }.contact input {
+        width: 100%;
+    }
+}

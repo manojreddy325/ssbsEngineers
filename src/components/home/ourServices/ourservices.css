@@ -1,0 +1,43 @@
+.projects .box{
+    box-shadow: 0 0 20px 0 rgb(112 121 138 /18%);
+    border-radius: 6px;
+    text-align: center;
+    padding: 30px;
+    cursor: pointer;
+}
+.projects .box:hover {
+  box-shadow: 0 10px 40px 10px rgba(112, 121, 138, 0.3);
+  transform: scale(1.05); 
+}
+.projects img {
+    width:125px;
+    height: 90px;
+    margin: auto;
+}
+.images{
+    height:90px;
+    width:90px;
+}
+.marquee-container {
+    overflow: hidden;
+    width: 100%;
+    /* display: flex; */
+  }
+  
+  .marquee-content {
+    display: inline-block;
+    width: max-content; 
+    scroll-snap-type: x mandatory;
+    white-space: nowrap;
+    animation: marquee 12s linear infinite alternate;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

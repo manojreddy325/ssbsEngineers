@@ -1,0 +1,133 @@
+.hero {
+    background-image: url("../../../../public/images/banner4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    opacity: 0.8;
+}
+.hero .container{
+    padding-top: 15%;
+}
+.hero h1{
+    color:#fff;
+    font-size: 60px;
+}
+.hero p {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 12%;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+.btn-join{
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-know-more{
+    background-color: transparent;
+    border: 2px solid #ff9933;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:800px) {
+    .hero .container{
+        padding-top: 10%;
+    }
+}
+/* @media screen and (max-width: 992px){
+    .hero h1{
+        color:#fff;
+        font-size: 48px;
+        margin-top: 22%;
+        margin-bottom: 22%;
+    }
+    .hero p {
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 20%;
+    }
+} */
+@media screen and (max-width: 768px) {
+    .hero h1{
+        color:#fff;
+        font-size: 38px;
+        margin-top: 20%;
+        margin-bottom: 25%;
+    }
+    .hero p {
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 15%;
+    }
+    .btn-join{
+        font-size: 12px;
+        cursor: pointer;
+        margin-top: 10%;
+    }
+    .btn-know-more{
+        background-color: transparent;
+        border: 2px solid #ff9933;
+        font-weight: bold;
+        font-size: 12px;
+        cursor: pointer;
+        margin-top: 10%;
+    }
+}
+/* @media screen and (min-width: 768px) {
+    .hero h1{
+        color:#fff;
+        font-size: 60px;
+        margin-bottom: 3%;
+        font-weight: 500;
+    }
+    .hero p {
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 6%;
+    }
+    .btn-join{
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 20%;
+    }
+    .btn-know-more{
+        background-color: transparent;
+        border: 2px solid #ff9933;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 20%;
+    }
+} */
+@media screen and (min-width: 992px) {
+    .hero h1{
+        color:#fff;
+        font-size: 60px;
+        margin-bottom: 3%;
+        font-weight: 500;
+    }
+    .hero p {
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 6%;
+    }
+    .btn-join{
+        font-size: 16px;
+        cursor: pointer;
+        /* margin-top: 20%; */
+    }
+    .btn-know-more{
+        background-color: transparent;
+        border: 2px solid #ff9933;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        /* margin-top: 20%; */
+    }
+}
