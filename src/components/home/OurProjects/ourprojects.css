@@ -1,46 +1,46 @@
-.projects .box{
-    box-shadow: 0 0 20px 0 rgb(112 121 138 /18%);
+.projects .box {
+    box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
     border-radius: 6px;
     text-align: center;
     padding: 30px;
     cursor: pointer;
+    width: 200px; /* Adjust as needed */
+    flex-shrink: 0;
 }
-.projects .box:hover {
-  animation-play-state: paused;
-}
+
 .projects img {
-    width:125px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
     margin: auto;
 }
-.images{
-    height:100px;
-    width:100px;
-}
-.marquee-container {
-    overflow: hidden;
+
+.projects-container {
     width: 100%;
+    overflow-x: auto;
+    padding: 20px 0;
+}
+
+.projects-scroll {
     display: flex;
-  }
-  
-  .marquee-content {
-    display: inline-block;
-    width: max-content; 
-    scroll-snap-type: x mandatory;
-    white-space: nowrap;
-    animation: marquee 12s linear infinite alternate;
-    animation-play-state: running;
-  }
-  .marquee-container:hover .marquee-content {
-    animation-play-state: paused;
-  }
-  
-  @keyframes marquee {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
-  
+    gap: 20px;
+    width: max-content;
+}
+
+/* Styling the scrollbar */
+.projects-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.projects-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.projects-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.projects-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

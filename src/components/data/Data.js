@@ -32,8 +32,18 @@ export const ourprojects = [
             type: "Residential",
           },
           {
-            cover: "../images/hero/myhomeavatar.PNG",
-            name: "My Home Avatar",
+            cover: "../images/hero/nbcc.JPG",
+            name: "N B C C",
+            type: "",
+          },
+          {
+            cover: "../images/hero/dsr.PNG",
+            name: "DSR BUILDERS&DEVELOPERS",
+            type: "",
+          },
+          {
+            cover: "../images/hero/myhomegroup.png",
+            name: "My Home Constructions",
             type: "Residential",
           },
           {
@@ -57,8 +67,23 @@ export const ourprojects = [
             type: "Commercial",
           },
           {
+            cover: "../images/hero/pnrgroup.PNG",
+            name: "PNR GROUP",
+            type: "",
+          },
+          {
+            cover: "../images/hero/a2a.PNG",
+            name: "A2A LIFE SPACES",
+            type: "",
+          },
+          {
             cover: "../images/hero/svc.PNG",
             name: "SVC",
+            type: "Residential",
+          },
+          {
+            cover: "../images/hero/srinivasa.PNG",
+            name: "Sri Sreenivasa",
             type: "Residential",
           },
           {
@@ -67,29 +92,134 @@ export const ourprojects = [
             type: "Residential",
           },
           {
-            cover: "../images/hero/myhomemangala.jpg",
-            name: "My Home Mangala",
-            type: "Residential",
+            cover: "../images/hero/mw.PNG",
+            name: "M + W GROUP",
+            type: "",
           },
           {
-            cover: "../images/hero/rajapushpaatria.webp",
-            name: "RAJAPUSHPA Atria",
-            type: "Residential",
+            cover: "../images/hero/mouritech.PNG",
+            name: "MOURITECH",
+            type: "Commercial",
           },
           {
-            cover: "../images/hero/rajapushparegalia.jpg",
-            name: "RAJAPUSHPA Regalia ",
+            cover: "../images/hero/rajapushpa.png",
+            name: "RAJAPUSHPA",
             type: "Residential",
           },
           {
             cover: "../images/hero/dmart.PNG",
-            name: "Dmart",
+            name: "DMart",
             type: "Commercial",
           },
           {
             cover: "../images/hero/elegance-emperia.png",
-            name: "Elegance Emperia",
+            name: "Elegance",
             type: "Commercial",
+          },
+          {
+            cover: "../images/hero/urbansupermart.PNG",
+            name: "URBAN SUPERMART",
+            type: "",
+          },
+          {
+            cover: "../images/hero/jc.PNG",
+            name: "J.C.Brothers",
+            type: "Commercial",
+          },
+          {
+            cover: "../images/hero/rs.PNG",
+            name: "R.S.Brothers",
+            type: "Commercial",
+          },
+          {
+            cover: "../images/hero/chennai.PNG",
+            name: "CHENNAI Shoping mall",
+            type: "Commercial",
+          },
+          {
+            cover: "../images/hero/south.PNG",
+            name: "SOUTH INDIA Shoping mall",
+            type: "Commercial",
+          },
+          {
+            cover: "../images/hero/jsbabu.PNG",
+            name: "J.S.BABU SILKS",
+            type: "Commercial",
+          },
+          {
+            cover: "../images/hero/cmr.PNG",
+            name: "CMR SHOPPING MALL",
+            type: "Commercial",
+          },
+          {
+            cover: "../images/hero/miraj.PNG",
+            name: "MIRAJ CINEMAS",
+            type: "Commercial",
+          },
+          {
+            cover: "../images/hero/kaveri.PNG",
+            name: "Kaveri Seeds",
+            type: "Commercial",
+          },
+          {
+            cover: "../images/hero/pooja.PNG",
+            name: "pooja crafted homes",
+            type: "",
+          },
+          {
+            cover: "../images/hero/movietimes.PNG",
+            name: "MOVIE TIMES CINEMAS",
+            type: "Comercial",
+          },
+          {
+            cover: "../images/hero/drdelhi.PNG",
+            name: "DR RAMMANOHAR LOHIA HOSPITAL",
+            type: "Residential",
+          },
+          {
+            cover: "../images/hero/cipher.PNG",
+            name: "CIPHER Healthcare",
+            type: "Commercial",
+          },
+          {
+            cover: "../images/hero/anri.PNG",
+            name: "ANRI BUILDERS",
+            type: "",
+          },
+          {
+            cover: "../images/hero/inspire.PNG",
+            name: "INSPIRE INFRA",
+            type: "",
+          },
+          {
+            cover: "../images/hero/mahaveer.PNG",
+            name: "MAHAVEER",
+            type: "Residential",
+          },
+          {
+            cover: "../images/hero/eipl.PNG",
+            name: "EIPL",
+            type: "",
+          },
+          {
+            cover: "../images/hero/e11.PNG",
+            name: "E11 HOMES",
+            type: "Residential",
+          },
+          {
+            cover: "../images/hero/aryamithra.PNG",
+            name: "Aryamitra",
+            type: "",
+          },
+          {
+            cover: "../images/hero/maku.PNG",
+            name: "MAKAU",
+            type: "",
+          },
+          {
+            cover: "../images/hero/candeur.jpeg",
+            name: "CANDEUR Constructions",
+            type: "",
           },
 ]
 

@@ -22,7 +22,6 @@ const Pages = () => {
   return (
     <>
       <Router>
-        <Developer />
         <Header />
         <Switch>
           <Route exact path='/' component={Home} />
@@ -41,6 +40,7 @@ const Pages = () => {
           <Route exact path='/profile' component={Profile} />
         </Switch>
         <Footer />
+        <Developer />
       </Router>
     </>
   )

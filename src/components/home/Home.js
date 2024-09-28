@@ -3,18 +3,34 @@ import Hero from './Hero';
 import OurProjects from './OurProjects/OurProjects';
 import Recent from './recent/Recent';
 import OurServices from './ourServices/OurServices';
-import { FaWhatsapp } from 'react-icons/fa';
+import { FaWhatsapp, FaPhone } from 'react-icons/fa';
 
 const Home = () => {
+    const phoneNumber = '9908122336';
+
+    const handlePhoneClick = () => {
+        window.location.href = `tel:${phoneNumber}`;
+    };
     return(
         <>
             <Hero />
             <OurProjects />
             <Recent />
             <OurServices />
-            <div className='whatsapp-container'>
-            <a href="https://wa.me/9985787007" className='whatsapp_float whatsapp-icon' target='_tab'><FaWhatsapp style={{height:'45px', width:'45px', color:'white'}} /></a>
-          </div>
+            <div className='contact-icons-container'>
+                <button onClick={handlePhoneClick} className='contact-icon phone-icon'>
+                    <div className="icon-wrapper">
+                        <FaPhone />
+                    </div>
+                    <span className="icon-label">Call Us</span>
+                </button>
+                <a href={`https://wa.me/${phoneNumber}`} className='contact-icon whatsapp-icon' target='_blank' rel="noopener noreferrer">
+                    <div className="icon-wrapper">
+                        <FaWhatsapp />
+                    </div>
+                    <span className="icon-label">WhatsApp</span>
+                </a>
+            </div>
         </>
     )
 }

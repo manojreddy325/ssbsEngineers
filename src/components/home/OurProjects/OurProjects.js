@@ -1,24 +1,21 @@
 import React from 'react';
 import './ourprojects.css';
 import Heading from '../../Heading';
-import OurProjectsCard from '../OurProjects/OurProjectsCard';
+import OurProjectsCard from './OurProjectsCard';
 
 const OurProjects = () => {
     return (
-        <>
-            <section className='projects background'>
-                <div className='container'>
-                    <Heading title={'Our Clients'} subtitile={'Find our clients Here!!'} />
-                    <div class="marquee-container">
-                    <div className="marquee-content">
-                           {/* <marquee><OurProjectsCard /></marquee> */}
-                           <OurProjectsCard />
-                        </div>
+        <section className='projects background'>
+            <div className='container'>
+                <Heading title='Our Clients' subtitle='Find our clients Here!!' />
+                <div className="projects-container">
+                    <div className="projects-scroll">
+                        <OurProjectsCard />
                     </div>
                 </div>
-            </section>
-        </>
-    )
-}
+            </div>
+        </section>
+    );
+};
 
 export default OurProjects;
