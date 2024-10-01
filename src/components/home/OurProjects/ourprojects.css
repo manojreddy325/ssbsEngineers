@@ -2,17 +2,31 @@
     box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
     border-radius: 6px;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     cursor: pointer;
-    width: 200px; /* Adjust as needed */
+    width: 180px; /* Reduced width for better fit */
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 230px; /* Fixed height for consistency */
 }
 
 .projects img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    margin: auto;
+    width: 100%;
+    height: 150px;
+    object-fit: contain; /* Changed to contain to prevent cropping */
+    margin-bottom: 10px;
+}
+
+.projects h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.projects label {
+    font-size: 12px;
+    color: #888;
 }
 
 .projects-container {

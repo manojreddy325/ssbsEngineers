@@ -7,10 +7,12 @@ import { FaWhatsapp, FaPhone } from 'react-icons/fa';
 
 const Home = () => {
     const phoneNumber = '9908122336';
+    const whatsappNumber = '9985787007';
 
     const handlePhoneClick = () => {
         window.location.href = `tel:${phoneNumber}`;
     };
+
     return(
         <>
             <Hero />
@@ -24,7 +26,7 @@ const Home = () => {
                     </div>
                     <span className="icon-label">Call Us</span>
                 </button>
-                <a href={`https://wa.me/${phoneNumber}`} className='contact-icon whatsapp-icon' target='_blank' rel="noopener noreferrer">
+                <a href={`https://wa.me/${whatsappNumber}`} className='contact-icon whatsapp-icon' target='_blank' rel="noopener noreferrer">
                     <div className="icon-wrapper">
                         <FaWhatsapp />
                     </div>

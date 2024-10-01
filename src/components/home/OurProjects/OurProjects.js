@@ -7,7 +7,7 @@ const OurProjects = () => {
     return (
         <section className='projects background'>
             <div className='container'>
-                <Heading title='Our Clients' subtitle='Find our clients Here!!' />
+                <Heading title='Our projects' subtitle='Find our clients Here!!' />
                 <div className="projects-container">
                     <div className="projects-scroll">
                         <OurProjectsCard />

@@ -38,7 +38,7 @@ export const ourprojects = [
           },
           {
             cover: "../images/hero/dsr.PNG",
-            name: "DSR BUILDERS&DEVELOPERS",
+            name: "DSR BUILDERS",
             type: "",
           },
           {
